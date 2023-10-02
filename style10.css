@@ -424,7 +424,7 @@ img {
     }
   
     .click span:last-child {
-      transform: rotate(-45deg);
+      transform: rotate(45deg);
       top: 0;
     }
   
