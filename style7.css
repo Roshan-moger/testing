@@ -195,24 +195,25 @@ nav .navlinks li a {
   }
 
   .click span:last-child {
-    transform: rotate(-45deg);
+    transform: rotate(45deg);
     top: 0;
   }
 
-  nav .navlinks {
+  nav .navlinks  {
     position: absolute;
     margin-top: 100px;
     top: 0;
-    display:none ;
-    right:-60%;
+    
+    right:-30%;
     bottom: 0;
-    width: 30%;
-    height: 100vh;
-    background-color: #222;
+    width: 20%;
+    height: 200px;
+   
     z-index: 3;
-    box-shadow: 5px 13px 30px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
     transition:  right 0.9s ease;
     padding: 25px 0px;
+    display: none;
   }
 
   nav .navlinks li {
@@ -221,15 +222,23 @@ nav .navlinks li a {
   }
 
   nav .navlinks li a {
-   
+   padding: 1rem;
     margin-bottom: 15px;
     text-align: center;
+   
   }
 
-  nav .navlinks.open{
-    right: 0;
+
+  nav .navlinks.open {
+    
+    right: 0%;
     display: block;
+    
   }
+  a.open{
+    display: none;
+  }
+
 }
 
 @media (max-width: 768px) {
