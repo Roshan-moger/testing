@@ -432,10 +432,11 @@ img {
       position: absolute;
       margin-top: 100px;
       top: 0;
+      display: none;
       right:-60%;
       bottom: 0;
       width: 30%;
-      height: 100vh;
+      height: 200px;
       background-color: #222;
       z-index: 3;
       box-shadow: 5px 13px 30px rgba(0, 0, 0, 0.1);
@@ -455,6 +456,8 @@ img {
   
     nav .navlinks.open {
       right: 0;
+      display: block;
+      transition:  right 0.9s ease;
     }
    
     .cont .contactInfo{
