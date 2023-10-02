@@ -215,11 +215,12 @@ nav .navlinks li a {
   }
 
   nav .navlinks li {
-    display: none;
+    display: block;
+    overflow:hidden;
   }
 
   nav .navlinks li a {
-    display: block;
+    display:none;
     margin-bottom: 15px;
     text-align: center;
   }
