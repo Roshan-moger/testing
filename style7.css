@@ -203,6 +203,7 @@ nav .navlinks li a {
     position: absolute;
     margin-top: 100px;
     top: 0;
+    display:none ;
     right:-60%;
     bottom: 0;
     width: 30%;
@@ -216,17 +217,18 @@ nav .navlinks li a {
 
   nav .navlinks li {
     display: block;
-    overflow:hidden;
+   
   }
 
   nav .navlinks li a {
-    display:none;
+   
     margin-bottom: 15px;
     text-align: center;
   }
 
   nav .navlinks.open{
     right: 0;
+    display: block;
   }
 }
 
