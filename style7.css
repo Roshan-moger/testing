@@ -88,7 +88,7 @@ nav .navlinks li {
 
 nav .navlinks li a {
   color: #e5e5e5;
-  margin-right: 2.5rem;
+  margin-right: 50px;
 }
 
 .cont {
@@ -228,7 +228,7 @@ nav .navlinks {
   display:none;
   right:-60%;
   bottom: 0;
-  width: 25%;
+  width: 30%;
   height: 200px;
   background-color: #222;
   z-index: 3;
