@@ -430,6 +430,10 @@
       font-weight: 700;
       color: #007ced;
     }
+    body {
+     width: 100%;
+     height: 100vh;
+    }
     
 
 
