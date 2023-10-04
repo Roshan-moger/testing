@@ -355,13 +355,14 @@
     }
     
   }
-  @media (max-width: 930px){
+
+  @media (max-width: 485px){
     .content h2{
-      font-size: 24px;
+      font-size: 20px;
       font-weight: 500;
     }
     .content p{
-      font-size: 16px;
+      font-size: 14px;
       font-weight: 300;
     }
   .Contact {
@@ -376,15 +377,14 @@
     .information .contactInfo .box{
       position: relative;
       padding: 0px 0;
-      display: flex;}
-
-    .information .contactInfo .box .text p{
-      font-size: 14x;
+      display: flex;
     }
+
+    
      .information .contactInfo .box .text h3{
   font-weight: 500;
   color: #007ced;
-  font-size: 20px;
+  font-size: 16px;
 }
     .logo i {
       height: 30px;
@@ -421,12 +421,12 @@
     .information .contactInfo .box .text p{
       margin-left: 25px;
       display: flex;
-      font-size: 15px;
+      font-size: 12px;
       font-weight: 300;
       flex-direction: column;
     }
     .contactForm h2{
-      font-size: 20px;
+      font-size: 16px;
       font-weight: 700;
       color: #007ced;
     }
